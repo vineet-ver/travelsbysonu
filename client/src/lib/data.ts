@@ -43,92 +43,92 @@ export const carTypes = [
 // Cars data
 export const cars = [
   {
-    id: 'rolls-phantom',
-    name: 'Rolls Royce Phantom',
-    category: 'sedan',
-    badge: 'Premium',
-    price: 45000,
-    rating: 5,
-    bookings: 48,
-    image: 'https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    id: 'maruti-ertiga',
+    name: 'Maruti Suzuki Ertiga',
+    category: 'suv',
+    badge: 'Family',
+    price: 3000,
+    rating: 4.5,
+    bookings: 65,
+    image: 'https://images.unsplash.com/photo-1649155217559-370c6382b82d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     features: [
-      { icon: 'fas fa-user-friends', text: 'Up to 4 passengers' },
+      { icon: 'fas fa-user-friends', text: 'Up to 7 passengers' },
       { icon: 'fas fa-suitcase', text: '3 large bags' },
       { icon: 'fas fa-snowflake', text: 'Climate control' }
     ]
   },
   {
-    id: 'mercedes-s',
-    name: 'Mercedes Benz S-Class',
-    category: 'wedding',
-    badge: 'Wedding Special',
-    price: 25000,
-    rating: 4.5,
-    bookings: 36,
-    image: 'https://images.unsplash.com/photo-1609061401043-03510c45eb88?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    id: 'mahindra-scorpio',
+    name: 'Mahindra Scorpio',
+    category: 'suv',
+    badge: 'Popular',
+    price: 3500,
+    rating: 4.7,
+    bookings: 89,
+    image: 'https://images.unsplash.com/photo-1625731728272-b0b9800f8500?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     features: [
-      { icon: 'fas fa-user-friends', text: 'Up to 4 passengers' },
-      { icon: 'fas fa-suitcase', text: '2 large bags' },
-      { icon: 'fas fa-snowflake', text: 'Climate control' }
+      { icon: 'fas fa-user-friends', text: 'Up to 7 passengers' },
+      { icon: 'fas fa-suitcase', text: '4 large bags' },
+      { icon: 'fas fa-mountain', text: 'Rugged & reliable' }
     ]
   },
   {
-    id: 'vintage-rolls',
-    name: 'Vintage Rolls Royce',
-    category: 'vintage',
-    badge: 'Vintage Collection',
-    price: 55000,
-    rating: 5,
-    bookings: 29,
-    image: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    features: [
-      { icon: 'fas fa-user-friends', text: 'Up to 4 passengers' },
-      { icon: 'fas fa-suitcase', text: '1 large bag' },
-      { icon: 'fas fa-camera', text: 'Perfect for photoshoots' }
-    ]
-  },
-  {
-    id: 'bmw-7',
-    name: 'BMW 7 Series',
-    category: 'sedan',
-    badge: 'Premium',
-    price: 22000,
-    rating: 5,
-    bookings: 42,
+    id: 'toyota-innova',
+    name: 'Toyota Innova Crysta',
+    category: 'suv',
+    badge: 'Family',
+    price: 4000,
+    rating: 4.8,
+    bookings: 112,
     image: 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     features: [
-      { icon: 'fas fa-user-friends', text: 'Up to 4 passengers' },
-      { icon: 'fas fa-suitcase', text: '2 large bags' },
+      { icon: 'fas fa-user-friends', text: 'Up to 7 passengers' },
+      { icon: 'fas fa-suitcase', text: '4 large bags' },
       { icon: 'fas fa-snowflake', text: 'Climate control' }
     ]
   },
   {
-    id: 'audi-a8',
-    name: 'Audi A8',
-    category: 'wedding',
+    id: 'toyota-crysta',
+    name: 'Toyota Crysta',
+    category: 'suv',
+    badge: 'Premium',
+    price: 4500,
+    rating: 4.9,
+    bookings: 98,
+    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    features: [
+      { icon: 'fas fa-user-friends', text: 'Up to 7 passengers' },
+      { icon: 'fas fa-suitcase', text: '4 large bags' },
+      { icon: 'fas fa-snowflake', text: 'Climate control' }
+    ]
+  },
+  {
+    id: 'mahindra-xuv',
+    name: 'Mahindra XUV',
+    category: 'suv',
+    badge: 'Premium SUV',
+    price: 4000,
+    rating: 4.6,
+    bookings: 76,
+    image: 'https://images.unsplash.com/photo-1617808654153-9be2536c45de?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+    features: [
+      { icon: 'fas fa-user-friends', text: 'Up to 7 passengers' },
+      { icon: 'fas fa-suitcase', text: '3 large bags' },
+      { icon: 'fas fa-snowflake', text: 'Climate control' }
+    ]
+  },
+  {
+    id: 'sedan-premium',
+    name: 'Premium Sedan',
+    category: 'sedan',
     badge: 'Wedding Special',
-    price: 18000,
-    rating: 4.5,
-    bookings: 31,
+    price: 5500,
+    rating: 4.8,
+    bookings: 58,
     image: 'https://images.unsplash.com/photo-1619405399517-d7fce0f13302?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     features: [
       { icon: 'fas fa-user-friends', text: 'Up to 4 passengers' },
       { icon: 'fas fa-suitcase', text: '2 large bags' },
-      { icon: 'fas fa-snowflake', text: 'Climate control' }
-    ]
-  },
-  {
-    id: 'range-rover',
-    name: 'Range Rover Autobiography',
-    category: 'suv',
-    badge: 'Premium SUV',
-    price: 30000,
-    rating: 5,
-    bookings: 38,
-    image: 'https://images.unsplash.com/photo-1551952238-2a4a0a94397c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    features: [
-      { icon: 'fas fa-user-friends', text: 'Up to 5 passengers' },
-      { icon: 'fas fa-suitcase', text: '3 large bags' },
       { icon: 'fas fa-snowflake', text: 'Climate control' }
     ]
   }
@@ -159,38 +159,38 @@ export const destinations = [
   {
     id: 'delhi',
     name: 'Delhi/NCR',
-    price: 8000,
+    price: 3000,
     image: 'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'jaipur',
     name: 'Jaipur',
-    price: 10000,
+    price: 3500,
     image: 'https://images.unsplash.com/photo-1581781870027-332d3f7d9b2e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'udaipur',
     name: 'Udaipur',
-    price: 12000,
+    price: 4000,
     image: 'https://images.unsplash.com/photo-1587135941948-670b381f08ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'mumbai',
     name: 'Mumbai',
-    price: 15000,
+    price: 5000,
     image: 'https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 'goa',
     name: 'Goa',
-    price: 14000,
+    price: 5500,
     image: 'https://images.unsplash.com/photo-1558350315-8aa00e8e4590?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
   },
   {
-    id: 'chennai',
-    name: 'Chennai',
-    price: 12000,
-    image: 'https://images.unsplash.com/photo-1517427677506-ade074eb1432?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    id: 'gurugram',
+    name: 'Gurugram',
+    price: 3000,
+    image: 'https://images.unsplash.com/photo-1586157191167-ddb9bdcbfa7d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
   }
 ];
 
