@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
           transition={{ delay: 0.2 }}
         >
           <h1 className="text-2xl font-bold font-[Playfair_Display] text-[#64FFDA] transition-all duration-300">
-            <span className="text-white">Royal</span><span className="text-[#4ECDC4]">Rides</span>
+            <span className="text-white">SS</span><span className="text-[#4ECDC4]">Travels</span>
           </h1>
         </motion.div>
         

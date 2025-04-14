@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <h3 className="text-2xl font-bold font-[Playfair_Display] text-white mb-6">
-              <span className="text-white">Royal</span><span className="text-[#4ECDC4]">Rides</span>
+              <span className="text-white">SS</span><span className="text-[#4ECDC4]">Travels</span>
             </h3>
             <p className="text-gray-300 mb-6">
               Luxury car rental services for weddings, corporate events, and special occasions across India.
@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
         >
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-300 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} Royal Rides India. All rights reserved.
+              &copy; {new Date().getFullYear()} SS Travels India. All rights reserved.
             </p>
             
             <div className="flex space-x-6">
