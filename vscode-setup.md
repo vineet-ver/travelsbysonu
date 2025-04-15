@@ -96,14 +96,22 @@ client.on('close', (code) => {
 
 ## 4. Update package.json
 
-Add the following script to your package.json:
+Add the following script to your package.json scripts section:
+
+```json
+"dev:local": "node --loader tsx dev.js",
+```
+
+Your scripts section should look like this:
 
 ```json
 "scripts": {
-  "dev:local": "node --loader tsx dev.js",
   "dev": "NODE_ENV=development tsx server/index.ts",
+  "dev:local": "node --loader tsx dev.js",
   "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-  "start": "NODE_ENV=production node dist/index.js"
+  "start": "NODE_ENV=production node dist/index.js",
+  "check": "tsc",
+  "db:push": "drizzle-kit push"
 }
 ```
 
